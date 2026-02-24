@@ -1,0 +1,139 @@
+Info: Detected FABulous 2.0 format project.
+
+Info: Checksum: 0x2ce32b22
+
+Info: Device utilisation:
+Info: 	         FABULOUS_LC:      20/    672     2%
+Info: 	IO_1_bidirectional_frame_config_pass:      28/     28   100%
+Info: 	InPass4_frame_config_mux:       0/     56     0%
+Info: 	OutPass4_frame_config_mux:       0/     98     0%
+Info: 	        RegFile_32x4:       0/     14     0%
+Info: 	              MULADD:       1/      7    14%
+Info: 	        Global_Clock:       1/      1   100%
+Info: 	       FABULOUS_MUX2:       0/    336     0%
+Info: 	       FABULOUS_MUX4:       0/    168     0%
+Info: 	       FABULOUS_MUX8:       0/     84     0%
+Info: 	       Config_access:       0/     42     0%
+
+Info: Placed 28 cells based on constraints.
+Info: Creating initial analytic placement for 24 cells, random placement wirelen = 615.
+Info:     at initial placer iter 0, wirelen = 137
+Info:     at initial placer iter 1, wirelen = 137
+Info:     at initial placer iter 2, wirelen = 137
+Info:     at initial placer iter 3, wirelen = 137
+Info: Running main analytical placer, max placement attempts per cell = 10000.
+Info:     at iteration #1, type MULADD: wirelen solved = 137, spread = 137, legal = 476; time = 0.00s
+Info:     at iteration #1, type Global_Clock: wirelen solved = 476, spread = 476, legal = 476; time = 0.00s
+Info:     at iteration #1, type _CONST1_DRV: wirelen solved = 476, spread = 476, legal = 476; time = 0.00s
+Info:     at iteration #1, type _CONST0_DRV: wirelen solved = 476, spread = 476, legal = 476; time = 0.00s
+Info:     at iteration #1, type FABULOUS_LC: wirelen solved = 434, spread = 451, legal = 451; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 128, spread = 147, legal = 553; time = 0.00s
+Info:     at iteration #2, type MULADD: wirelen solved = 221, spread = 221, legal = 495; time = 0.00s
+Info:     at iteration #2, type Global_Clock: wirelen solved = 495, spread = 495, legal = 495; time = 0.00s
+Info:     at iteration #2, type _CONST1_DRV: wirelen solved = 495, spread = 495, legal = 495; time = 0.00s
+Info:     at iteration #2, type _CONST0_DRV: wirelen solved = 495, spread = 495, legal = 495; time = 0.00s
+Info:     at iteration #2, type FABULOUS_LC: wirelen solved = 435, spread = 464, legal = 470; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 128, spread = 147, legal = 448; time = 0.00s
+Info:     at iteration #3, type MULADD: wirelen solved = 209, spread = 209, legal = 414; time = 0.00s
+Info:     at iteration #3, type Global_Clock: wirelen solved = 414, spread = 414, legal = 414; time = 0.00s
+Info:     at iteration #3, type _CONST1_DRV: wirelen solved = 414, spread = 414, legal = 414; time = 0.00s
+Info:     at iteration #3, type _CONST0_DRV: wirelen solved = 414, spread = 414, legal = 414; time = 0.00s
+Info:     at iteration #3, type FABULOUS_LC: wirelen solved = 390, spread = 417, legal = 412; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 129, spread = 166, legal = 553; time = 0.00s
+Info:     at iteration #4, type MULADD: wirelen solved = 264, spread = 264, legal = 469; time = 0.00s
+Info:     at iteration #4, type Global_Clock: wirelen solved = 469, spread = 469, legal = 469; time = 0.00s
+Info:     at iteration #4, type _CONST1_DRV: wirelen solved = 469, spread = 469, legal = 469; time = 0.00s
+Info:     at iteration #4, type _CONST0_DRV: wirelen solved = 469, spread = 469, legal = 469; time = 0.00s
+Info:     at iteration #4, type FABULOUS_LC: wirelen solved = 398, spread = 412, legal = 411; time = 0.00s
+Info:     at iteration #4, type ALL: wirelen solved = 129, spread = 176, legal = 443; time = 0.00s
+Info:     at iteration #5, type MULADD: wirelen solved = 251, spread = 251, legal = 445; time = 0.00s
+Info:     at iteration #5, type Global_Clock: wirelen solved = 445, spread = 445, legal = 445; time = 0.00s
+Info:     at iteration #5, type _CONST1_DRV: wirelen solved = 445, spread = 445, legal = 445; time = 0.00s
+Info:     at iteration #5, type _CONST0_DRV: wirelen solved = 445, spread = 445, legal = 445; time = 0.00s
+Info:     at iteration #5, type FABULOUS_LC: wirelen solved = 392, spread = 409, legal = 408; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 133, spread = 166, legal = 436; time = 0.00s
+Info:     at iteration #6, type MULADD: wirelen solved = 234, spread = 234, legal = 436; time = 0.00s
+Info:     at iteration #6, type Global_Clock: wirelen solved = 436, spread = 436, legal = 436; time = 0.00s
+Info:     at iteration #6, type _CONST1_DRV: wirelen solved = 436, spread = 436, legal = 436; time = 0.00s
+Info:     at iteration #6, type _CONST0_DRV: wirelen solved = 436, spread = 436, legal = 436; time = 0.00s
+Info:     at iteration #6, type FABULOUS_LC: wirelen solved = 396, spread = 425, legal = 428; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 133, spread = 166, legal = 479; time = 0.00s
+Info:     at iteration #7, type MULADD: wirelen solved = 256, spread = 256, legal = 439; time = 0.00s
+Info:     at iteration #7, type Global_Clock: wirelen solved = 439, spread = 439, legal = 439; time = 0.00s
+Info:     at iteration #7, type _CONST1_DRV: wirelen solved = 439, spread = 439, legal = 439; time = 0.00s
+Info:     at iteration #7, type _CONST0_DRV: wirelen solved = 439, spread = 439, legal = 439; time = 0.00s
+Info:     at iteration #7, type FABULOUS_LC: wirelen solved = 418, spread = 429, legal = 428; time = 0.00s
+Info:     at iteration #7, type ALL: wirelen solved = 140, spread = 159, legal = 501; time = 0.00s
+Info:     at iteration #8, type MULADD: wirelen solved = 230, spread = 230, legal = 479; time = 0.00s
+Info:     at iteration #8, type Global_Clock: wirelen solved = 479, spread = 479, legal = 479; time = 0.00s
+Info:     at iteration #8, type _CONST1_DRV: wirelen solved = 479, spread = 479, legal = 479; time = 0.00s
+Info:     at iteration #8, type _CONST0_DRV: wirelen solved = 479, spread = 479, legal = 479; time = 0.00s
+Info:     at iteration #8, type FABULOUS_LC: wirelen solved = 473, spread = 473, legal = 474; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 140, spread = 159, legal = 426; time = 0.00s
+Info:     at iteration #9, type MULADD: wirelen solved = 232, spread = 232, legal = 426; time = 0.00s
+Info:     at iteration #9, type Global_Clock: wirelen solved = 426, spread = 426, legal = 426; time = 0.00s
+Info:     at iteration #9, type _CONST1_DRV: wirelen solved = 426, spread = 426, legal = 426; time = 0.00s
+Info:     at iteration #9, type _CONST0_DRV: wirelen solved = 426, spread = 426, legal = 426; time = 0.00s
+Info:     at iteration #9, type FABULOUS_LC: wirelen solved = 416, spread = 429, legal = 435; time = 0.00s
+Info:     at iteration #9, type ALL: wirelen solved = 140, spread = 163, legal = 425; time = 0.00s
+Info:     at iteration #10, type MULADD: wirelen solved = 220, spread = 220, legal = 431; time = 0.00s
+Info:     at iteration #10, type Global_Clock: wirelen solved = 431, spread = 431, legal = 431; time = 0.00s
+Info:     at iteration #10, type _CONST1_DRV: wirelen solved = 431, spread = 431, legal = 431; time = 0.00s
+Info:     at iteration #10, type _CONST0_DRV: wirelen solved = 431, spread = 431, legal = 431; time = 0.00s
+Info:     at iteration #10, type FABULOUS_LC: wirelen solved = 420, spread = 433, legal = 434; time = 0.00s
+Info:     at iteration #10, type ALL: wirelen solved = 140, spread = 169, legal = 433; time = 0.00s
+Info:     at iteration #11, type MULADD: wirelen solved = 233, spread = 233, legal = 553; time = 0.00s
+Info:     at iteration #11, type Global_Clock: wirelen solved = 553, spread = 553, legal = 553; time = 0.00s
+Info:     at iteration #11, type _CONST1_DRV: wirelen solved = 553, spread = 553, legal = 553; time = 0.00s
+Info:     at iteration #11, type _CONST0_DRV: wirelen solved = 553, spread = 553, legal = 553; time = 0.00s
+Info:     at iteration #11, type FABULOUS_LC: wirelen solved = 552, spread = 552, legal = 553; time = 0.00s
+Info:     at iteration #11, type ALL: wirelen solved = 155, spread = 168, legal = 552; time = 0.00s
+Info:     at iteration #12, type MULADD: wirelen solved = 253, spread = 253, legal = 450; time = 0.00s
+Info:     at iteration #12, type Global_Clock: wirelen solved = 450, spread = 450, legal = 450; time = 0.00s
+Info:     at iteration #12, type _CONST1_DRV: wirelen solved = 450, spread = 450, legal = 450; time = 0.00s
+Info:     at iteration #12, type _CONST0_DRV: wirelen solved = 450, spread = 450, legal = 450; time = 0.00s
+Info:     at iteration #12, type FABULOUS_LC: wirelen solved = 412, spread = 419, legal = 420; time = 0.00s
+Info:     at iteration #12, type ALL: wirelen solved = 135, spread = 166, legal = 439; time = 0.00s
+Info:     at iteration #13, type MULADD: wirelen solved = 239, spread = 239, legal = 479; time = 0.00s
+Info:     at iteration #13, type Global_Clock: wirelen solved = 479, spread = 479, legal = 479; time = 0.00s
+Info:     at iteration #13, type _CONST1_DRV: wirelen solved = 479, spread = 479, legal = 479; time = 0.00s
+Info:     at iteration #13, type _CONST0_DRV: wirelen solved = 479, spread = 479, legal = 479; time = 0.00s
+Info:     at iteration #13, type FABULOUS_LC: wirelen solved = 473, spread = 480, legal = 482; time = 0.00s
+Info:     at iteration #13, type ALL: wirelen solved = 155, spread = 170, legal = 431; time = 0.00s
+Info:     at iteration #14, type MULADD: wirelen solved = 234, spread = 234, legal = 477; time = 0.00s
+Info:     at iteration #14, type Global_Clock: wirelen solved = 477, spread = 477, legal = 477; time = 0.00s
+Info:     at iteration #14, type _CONST1_DRV: wirelen solved = 477, spread = 477, legal = 477; time = 0.00s
+Info:     at iteration #14, type _CONST0_DRV: wirelen solved = 477, spread = 477, legal = 477; time = 0.00s
+Info:     at iteration #14, type FABULOUS_LC: wirelen solved = 473, spread = 480, legal = 484; time = 0.00s
+Info:     at iteration #14, type ALL: wirelen solved = 155, spread = 174, legal = 477; time = 0.00s
+Info: HeAP Placer Time: 0.01s
+Info:   of which solving equations: 0.01s
+Info:   of which spreading cells: 0.00s
+Info:   of which strict legalisation: 0.00s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 0, wirelen = 425
+iter #1: temp = 0.000000, timing cost = 0, wirelen = 391, dia = 3, Ra = 0.37 
+iter #2: temp = 0.000000, timing cost = 0, wirelen = 391, dia = 3, Ra = 0.33 
+iter #3: temp = 0.000000, timing cost = 0, wirelen = 390, dia = 3, Ra = 0.32 
+iter #4: temp = 0.000000, timing cost = 0, wirelen = 390, dia = 3, Ra = 0.37 
+Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 390
+Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 390 
+Info: SA placement time 0.00s
+
+Info: No Fmax available; no interior timing paths found in design.
+Info: Checksum: 0x1dfac171
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 153 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        165 |       11        154 |   11   154 |         0|       0.03       0.03|
+Info: Routing complete.
+Info: Router1 time 0.03s
+Info: Checksum: 0xdbd8713b
+
+Info: No Fmax available; no interior timing paths found in design.
+
+Info: Program finished normally.
